@@ -1,1 +1,1 @@
-web: gunicorn heroku_app.wsgi
+web: cd heroku_app && gunicorn heroku_app.wsgi
