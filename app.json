@@ -1,0 +1,10 @@
+{
+  "name": "Heroku App",
+  "description": "Test Heroku app",
+  "success_url": "/",
+  "addons": ["heroku-postgresql:hobby-dev", "papertrail"],
+  "env": {},
+  "scripts": {
+    "postdeploy": "django-admin.py migrate"
+  }
+}
