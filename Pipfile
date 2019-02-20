@@ -16,6 +16,8 @@ django-heroku = "==0.3.1"
 gunicorn = "*"
 ipython = "*"
 djangorestframework = "*"
+redis = "*"
+celery = "*"
 
 [requires]
 python_version = "3.7"

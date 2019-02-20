@@ -127,4 +127,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+CELERY_BROKER_URL = os.environ.get('REDIS_URL')
+
+
 django_heroku.settings(locals())
