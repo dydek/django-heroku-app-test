@@ -2,7 +2,7 @@
   "name": "Heroku App",
   "description": "Test Heroku app",
   "success_url": "/",
-  "addons": ["heroku-postgresql:hobby-dev", "papertrail"],
+  "addons": ["heroku-postgresql:hobby-dev", "papertrail", "heroku-redis:hobby-dev"],
   "env": {},
   "scripts": {
     "postdeploy": "python manage.py migrate"
