@@ -5,6 +5,6 @@
   "addons": ["heroku-postgresql:hobby-dev", "papertrail"],
   "env": {},
   "scripts": {
-    "postdeploy": "django-admin.py migrate"
+    "postdeploy": "python manage.py migrate"
   }
 }
