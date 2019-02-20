@@ -4,6 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
 
 [packages]
 django = "*"
@@ -13,6 +15,7 @@ behave-web-api = "*"
 django-heroku = "==0.3.1"
 gunicorn = "*"
 ipython = "*"
+djangorestframework = "*"
 
 [requires]
 python_version = "3.7"

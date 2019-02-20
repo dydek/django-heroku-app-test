@@ -2,10 +2,6 @@
 import os
 import sys
 
-sys.path.append(
-    os.path.abspath('heroku_app')
-)
-
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heroku_app.settings')
     try:
