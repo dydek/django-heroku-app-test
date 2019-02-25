@@ -14,7 +14,7 @@
   "environments": {
     "test": {
       "scripts": {
-        "test": "pytest && codecov"
+        "test": "pytest && codecov --commit=5af6bd8649bd1788ac8990a022c552d852b63a73"
       }
     }
   }
