@@ -10,6 +10,7 @@ codecov = "*"
 pytest-cov = "*"
 behave = "*"
 behave-django = "*"
+codacy-coverage = "*"
 
 [packages]
 django = "*"
