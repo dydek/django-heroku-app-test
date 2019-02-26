@@ -8,10 +8,12 @@ pytest = "*"
 pytest-django = "*"
 codecov = "*"
 pytest-cov = "*"
+behave = "*"
+behave-django = "*"
+codacy-coverage = "*"
 
 [packages]
 django = "*"
-behave = "*"
 behave-classy = "*"
 behave-web-api = "*"
 django-heroku = "==0.3.1"

@@ -8,5 +8,8 @@ install:
   - pipenv install -d
 
 script:
-  - pytest --cov=./
+  - pytest --cov=./ --cov-report xml
+
+after_success:
   - codecov
+  - python-codacy-coverage -r coverage.xml
